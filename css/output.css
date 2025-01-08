@@ -578,6 +578,16 @@ video {
   margin: 1.5rem;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -594,8 +604,32 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.inline{
+  display: inline;
+}
+
 .flex{
   display: flex;
+}
+
+.inline-flex{
+  display: inline-flex;
 }
 
 .hidden{
@@ -630,6 +664,15 @@ video {
 
 .max-w-sm{
   max-width: 24rem;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}
+
+.translate-x-3{
+  --tw-translate-x: 0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes fadeInBlur{
@@ -717,6 +760,14 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-t{
+  border-top-width: 1px;
+}
+
+.border-r{
+  border-right-width: 1px;
+}
+
 .border-gray-200{
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
@@ -725,6 +776,11 @@ video {
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
 }
 
 .bg-cyan-700{
@@ -768,6 +824,14 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
 }
 
 .text-center{
@@ -836,6 +900,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
 .shadow-2xl{
@@ -907,6 +976,10 @@ video {
     margin: 0px;
   }
 
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:block{
     display: block;
   }
@@ -941,5 +1014,9 @@ video {
 
   .md\:p-20{
     padding: 5rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 }
