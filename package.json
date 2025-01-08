@@ -1,0 +1,16 @@
+{
+  "name": "5---login-modal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css",
+    "watch": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

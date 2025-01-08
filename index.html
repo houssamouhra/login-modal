@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Login Modal</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-sky-100">
+      <!-- Card Container -->
+      <div
+        class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0 animate-fadeInBlur"
+      >
+        <!-- Left Side -->
+        <div class="p-6 md:p-20">
+          <h2 class="mb-5 text-4xl font-custom">Log In</h2>
+
+          <p
+            class="text-gray-600 max-w-sm text-lg font-light tracking-tight font-custom1 mb-12"
+          >
+            Log in to your account to upload or download pictures, videos or
+            music.
+          </p>
+
+          <form action="">
+            <input
+              type="email"
+              class="border border-gray-300 placeholder:font-light rounded-md p-6 w-full"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <!-- Middle Content -->
+            <div
+              class="flex flex-col items-center justify-between mt-6 gap-y-6 md:flex-row md:gap-y-0"
+            >
+              <a
+                href="#"
+                class="text-cyan-600 font-semibold text-sm hover:text-cyan-800"
+                >Forgot password ?</a
+              >
+              <button
+                class="flex justify-center items-center text-white bg-cyan-700 rounded-md w-full p-6 gap-x-4 shadow-sm px-9 md:w-auto hover:bg-opacity-90 hover:shadow-lg transition hover:-translate-y-0.5 duration-150"
+              >
+                <span class="font-semibold">Next</span>
+                <img src="svgs/right-arrow.svg" class="size-6" alt="" />
+              </button>
+            </div>
+          </form>
+
+          <div class="border-b border-gray-200 mt-12"></div>
+
+          <p class="text-gray-400 font-thin text-center text-sm py-6">
+            or log in with
+          </p>
+
+          <div
+            class="flex flex-col justify-center items-center gap-y-6 md:flex-row md:gap-x-4 md:gap-y-0"
+          >
+            <button
+              class="flex justify-center items-center gap-x-3 border border-gray-300 rounded py-2 w-full shadow-sm transition hover:bg-opacity-30 hover:-translate-y-0.5 hover:shadow-lg duration-150"
+            >
+              <img src="svgs/facebook.svg" class="w-9" alt="" />
+              <span class="text-slate-500">Facebook</span>
+            </button>
+
+            <button
+              class="flex justify-center items-center gap-x-3 border border-gray-300 rounded py-2 w-full shadow-sm transition hover:bg-opacity-30 hover:-translate-y-0.5 hover:shadow-lg duration-150"
+            >
+              <img src="svgs/google.svg" class="w-9" alt="" />
+              <span class="text-slate-500">Google</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <img
+          src="images/water.avif"
+          class="w-[430px] hidden rounded-r-2xl md:block"
+          alt=""
+        />
+
+        <!-- Close btn -->
+        <div
+          class="absolute bg-gray-200 cursor-pointer rounded-full p-2 size-10 right-5 -top-5 md:bg-white md:top-4 md:right-4 hover:bg-opacity-90 hover:-translate-y-0.5 duration-150"
+        >
+          <img src="svgs/close.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
